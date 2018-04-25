@@ -1,0 +1,56 @@
+.FlexPropertiesContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.ParentFlexPropertie {
+  flex: 1;
+  border-top-width: 0px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: chocolate;
+  padding: 16px;
+}
+.ChildrenFlexProperties {
+  flex: 1;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: chocolate;
+  padding: 16px;
+}
+.FlexPropertiesContainer-title {
+  text-align: left;
+}
+
+.propeties {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.Property {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border: 1px solid seagreen;
+  border-radius: 10px;
+  margin-left: 6px;
+}
+.Property-title {
+  text-align: left;
+  padding-bottom: 8px;
+  font-weight: 800;
+}
+.Property-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.ChildrenFlexProperties-properties {
+  text-align: left;
+}

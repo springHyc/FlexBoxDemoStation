@@ -1,0 +1,7 @@
+.FlexBoxContainer {
+  background-color: beige;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+}
