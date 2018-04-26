@@ -6,6 +6,10 @@
 
 这是一个 react 项目，可以使用`yarn start`来启动
 
+## 打包命令
+
+npm run build
+
 ## 部署到 github.io 命令
 
 ### 强制添加 dist 文件夹，因为.gitignore 文件中定义了忽略该文件
