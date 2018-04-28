@@ -11,7 +11,7 @@
   border-left-width: 0;
   border-right-width: 1px;
   border-style: solid;
-  border-color: chocolate;
+  border-color: #fed45b;
   padding: 16px;
 }
 .ChildrenFlexProperties {
@@ -21,7 +21,7 @@
   border-left-width: 0;
   border-right-width: 1px;
   border-style: solid;
-  border-color: chocolate;
+  border-color: #fed45b;
   padding: 16px;
 }
 .FlexPropertiesContainer-title {
@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   padding: 8px;
-  border: 1px solid seagreen;
+  background-color: white;
   border-radius: 10px;
   margin-left: 6px;
 }
@@ -45,12 +45,28 @@
   text-align: left;
   padding-bottom: 8px;
   font-weight: 800;
+  border: 1px solid #419bf9;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  color: #0f4c75;
 }
+
 .Property-item {
+  margin-top: 8px;
   display: flex;
   flex-direction: row;
 }
 
 .ChildrenFlexProperties-properties {
   text-align: left;
+}
+
+input + label {
+  margin-left: 4px;
+}
+
+input:checked + label {
+  color: #419bf9;
+  font-weight: 800;
 }

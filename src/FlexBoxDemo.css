@@ -22,9 +22,8 @@
   flex-direction: column;
   margin: 8px;
   padding: 8px;
-  height: 150px;
   border-radius: 6px;
-  border: 1px solid red;
+  background-color: white;
 }
 
 .FlexBoxDemo-item-num {
@@ -32,7 +31,7 @@
   height: 20px;
   border-radius: 10px;
   text-align: center;
-  background-color: teal;
+  background-color: #419bf9;
   line-height: 20px;
   align-self: center;
   margin-bottom: 10px;
