@@ -24,3 +24,8 @@
     transform: rotate(360deg);
   }
 }
+
+a:link,
+a:visited {
+  color: #419bf9;
+}
